@@ -32,5 +32,7 @@ count = 0
 for setting in wsetting:
     
     for i in range(0, setting):
-    count ++
+        Ueberliste[count].append(Ueberliste[count][0])
+        Ueberliste[count].pop(0)
+     count ++
     
